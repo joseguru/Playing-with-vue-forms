@@ -83,7 +83,7 @@
         methods:{
             onsubmit(){
                 this.isSubmitted=true;
-                console.log(this.User); 
+                console.log(this.User);
                 this.$http.post('https://requestb.in/1lbtlap1',this.User).
                 then((response=>{
                     console.log(response)
